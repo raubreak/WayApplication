@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:theme="@android:style/Theme.Light"
+
+	android:orientation="vertical"
+	android:layout_width="match_parent" 
+    android:layout_height="match_parent" android:background="@color/White">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/top_list"></ImageView>
+    <ViewFlipper android:layout_marginBottom="20dip" android:layout_width="match_parent" android:layout_height="wrap_content" android:flipInterval="2000" android:id="@+id/flipper" android:layout_marginTop="5px">
+        <TextView android:textSize="12sp" android:textColor="@color/candidate_normal" android:id="@+id/fliper1" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_horizontal"></TextView>
+    </ViewFlipper>
+    <ViewFlipper android:layout_height="wrap_content" android:id="@+id/viewFlipper1" android:layout_width="match_parent" android:layout_marginTop="25px">
+        <TextView android:textSize="12sp" android:id="@+id/fliper2" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_horizontal" android:layout_marginTop="15dip" android:textColor="@color/candidate_normal"></TextView>
+    </ViewFlipper>
+    <ViewFlipper android:layout_height="wrap_content" android:id="@+id/viewFlipper2" android:layout_width="match_parent" android:layout_marginTop="45px">
+        <TextView android:textSize="12sp" android:layout_marginTop="10dip" android:id="@+id/fliper3" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center_horizontal" android:textColor="@color/candidate_recommended"></TextView>
+    </ViewFlipper>
+    <ProgressBar android:layout_height="wrap_content" android:id="@+id/progressBar1" style="?android:attr/progressBarStyleSmall" android:layout_width="wrap_content" android:layout_marginLeft="10dip" android:layout_marginTop="10dip"></ProgressBar>
+	
+
+    
+    
+    
+    <ListView android:id="@android:id/list" android:drawSelectorOnTop="false" android:layout_width="match_parent" android:layout_below="@+id/imageView2" android:layout_alignLeft="@+id/imageView2" android:layout_alignRight="@+id/imageView2" android:layout_height="match_parent" android:layout_marginTop="90dip"></ListView>
+    
+    <RelativeLayout android:id="@+id/linearLayout1" android:layout_alignParentBottom="true" android:layout_height="wrap_content" android:layout_width="match_parent" android:visibility="invisible">
+        <EditText android:layout_height="wrap_content" android:id="@+id/terxtpost" android:layout_width="wrap_content" android:width="265dip" android:cursorVisible="true"></EditText>
+        <Button android:text="Post!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/terxtpost" android:layout_alignTop="@+id/terxtpost" android:layout_alignBottom="@+id/terxtpost" android:cursorVisible="true" android:id="@+id/postbutton1"></Button>
+    </RelativeLayout>
+    
+	    
+
+</RelativeLayout>

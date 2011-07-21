@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_dialog_items">select_dialog_items<item>Información</item><item>WayApp!</item><item>ZumB</item>
+    
+</string-array>
+</resources>

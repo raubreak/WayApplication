@@ -1,0 +1,19 @@
+WayApplication - Application for Android 
+@author Rsantos | Raubreak
+=====================================================================
+
+*This repository contains source code of WayApp for android with resources
+
+Using XMPP protocolo, is necessary changes IP and XMPP_SERVER_HOST  static atributes
+to connect database and XMPP service.
+
+
+Licences / Used libraries
+====================================================================
+
+* smack (xmpp) (Apache Licence)
+
+
+
+
+

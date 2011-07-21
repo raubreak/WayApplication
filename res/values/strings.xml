@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">WayApp</string>
+    <string name="accountSpinnerLabel">Account</string>
+    <string name="addContactButtonLabel">Add Contact</string>
+    <string name="addContactTitle">Add Contact</string>
+    <string name="allAccounts">All Accounts</string>
+    <string name="contactCreationFailure">Contact creation failed, check logs.</string>
+    <string name="contactEmailLabel">Contact Email</string>
+    <string name="contactNameLabel">Contact Name</string>
+    <string name="contactPhoneLabel">Contact Phone</string>
+    <string name="selectAccountLabel">Select</string>
+    <string name="selectLabel">Select label</string>
+    <string name="showInvisible">Show Invisible Contacts (Only)</string>
+    <string name="targetAccountLabel">Target Account</string>
+    <string name="undefinedTypeLabel">(Undefined)</string>
+    <string name="ist_7_nothing">Nothing\u2026</string>
+    
+    	<string name="RosterContextOpenChat">Open chat</string>
+
+	<string name="ChatYouAreOffline">Youre offline and cannot send messages</string>	
+	<string name="ChatClose">Close Chat</string>
+	<string name="ChatLeave">Leave Chat</string>
+	<string name="ChatListClose">Close Chat</string>
+	<string name="ChatListEnter">Enter Chat</string>
+
+	<string name="Notify1">New message from</string>
+	<string name="Notify2">You received a new Message</string>
+	<string name="NotifyFrom">From:</string>
+	<string name="ConnectionFailedTitle">Connection failed!</string>
+	<string name="ConnectionFailedText">Connection to server failed. Check your settings and try again.</string>
+
+	<string name="DialogConnecting1">Connecting</string>
+	<string name="DialogConnecting2">Please wait while connecting with account</string>
+	<string name="DialogConnecting3">Press key Back for interrupt connection.</string>
+
+	<string name="menuMainPref">Preferences</string>
+	<string name="menuMainAddContact">Add Contact</string>
+	<string name="menuMainSetStatus">Status message</string>
+	<string name="menuMainShowChats">Show chats</string>
+		
+	<string name="MainAddUser">Adding a new user</string>
+	<string name="MainSetStatus">Set your status message</string>
+	<string name="MainStatusAbort">Status Abort</string>	
+	
+    <string name="settings_name">Jabbim Settings</string>
+    <string name="conversationList_name">Jabbim open conversations</string>
+    <string name="conversation_name">Jabbim</string>
+    <string name="setYourStatus">Set your status:</string>
+    <string name="status">moo</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="apply">Apply</string>
+    <string name="send">Send</string>
+    <string name="sendhint">Type text and press Enter to send</string>
+    <string name="addUserDialog_entryLabel">Jabber ID:</string>
+    <string name="addUserDialog_groupSwitcherLabel">Select group:</string>
+    <string name="statusMessageDialog_msgLabel">Enter your message:</string>
+    <string name="statusMessageDialog_msgSwitcherLabel">Saved messages:</string>
+    <string name="conversationList_noNewMessage">There is no new message for you</string>
+    <string name="conversationList_noOpenConversation">No open new or open conversations.</string>
+    
+    
+    <!-- Preferences -->
+    <string name="prefAccount">Manage Jabber Account</string>
+    <string name="prefConn">Connection Settings</string>
+    <string name="prefPriv">Privacy</string>
+    <string name="prefJabberId">Jabber ID</string>
+    <string name="prefJabberIdHint">username@domain.com</string>
+    <string name="prefJabberIdSummary">Your account name à la user@jabbim.com </string>
+	<string name="prefPassword">Password</string>
+    <string name="prefPasswordSummary">The password for your given account. If clear, you will be asked on every login.</string>
+    <string name="prefPasswordDialog">Your password to your Jabber Account</string>
+    <string name="prefResource">Resource Name</string>
+    <string name="prefResourceHint">A simple word (about resource) like \'Home\'</string>
+    <string name="prefResourceSummary">Identifier if you have several places from where you login.</string>
+    <string name="prefResourcePriority">Resource Priority</string>
+    <string name="prefResourcePrioritySummary">Set the priority so that the server knows to which client it sends messages without a given resource, if logged in with several clients.</string>
+    
+    <string name="prefServer">Override Server Location</string>
+    <string name="prefServerSummary">In case the default is not used.</string>
+    <string name="prefServerPort">Server Port</string>
+    <string name="prefServerPortHint">A value between 0 and 65000</string>
+    <string name="prefServerPortSummary">In case the default is not used.</string>
+    <string name="prefEnableTls">Use TLS</string>
+    <string name="prefEnableTlsSummary">Forces the connection to be encrypted, recommended.</string>
+    <string name="prefEnableSasl">Use SASL</string>
+    <string name="prefEnableSaslSummary">Handles authentication and encryption, recommended.</string>
+    <string name="prefAllowPlainPasswd">Allow Plaintext Password Authentication</string>
+    <string name="prefAllowPlainPasswdSummary">Allows the client to authenticate with plain text password</string>
+     
+    <string name="prefHideSystem">Hide System Information</string>
+    <string name="prefHideSystemSummary">Do not send any information about your client and system</string>
+    <string name="prefHideNotifications">Send notifications</string>
+    <string name="prefHideNotificationsSummary">Closed window, currently typing etc.</string>
+    <string name="prefLogMessages">Log messages</string>
+    <string name="prefLogMessagesSummary">Saves incoming and outgoing messages.</string>
+    <string name="prefShowOffline">Show offline contacts</string>
+    <string name="prefShowOfflineSummary">Toggles display of offline contacts in roster.</string>
+    <string name="prefWakeLock">Block phone sleep</string>
+    <string name="prefWakeLockSummary">Prevents CPU sleep while online.(Consumes battery)</string>
+    
+    <!-- Notifications prefs -->
+    <string name="prefNotif">Notifications</string>
+    <string name="prefNotifLED">LED diod notification</string>
+    <string name="prefNotifLEDSummary">Use LED diod blinking for new message notification.</string>
+    <string name="prefNotifSound">Sound notification</string>
+    <string name="prefNotifSoundSummary">Use default notification sound if you received new message.</string>	
+    <string name="prefNotifVibration">Vibration</string>
+    <string name="prefNotifVibrationSummary">Vibrating notification if you received new message.</string>
+    
+    <!--  Menus -->
+    <string name="menuCloseConv">Close</string>
+    <string name="menuCloseGoContact">Close &amp; Contactlist</string>
+    <string name="menuReturnContact">Contactlist</string>
+    <string name="menuMainExit">Exit</string>
+    <string name="menuPrefReset">Reset</string>
+    
+    <!-- Virtual groups -->
+	<string name="virtualGroupAllContacts">All contacts</string>
+	<string name="virtualGroupUngrouped">Ungrouped</string>
+<string name="prefView">View</string>
+<string name="prefShowGroupAllContacts">Show group @All contacts</string>
+<string name="prefShowGroupAllContactsSummary">Show virtual (system) group @All contacts. All contacts are displayed here.</string>
+<string name="prefShowGroupUngrouped">Show group @Ungrouped</string>
+<string name="prefShowGroupUngroupedSummary">Show virtual group @Ungrouped. All contacts, which have no group are displayed here.</string>
+<string name="RosterContextOpenChatResource">Open chat with resource</string>
+<string name="DialogRosterProgress">Loading contacts</string>
+<string name="prefAutoStart">Automatically start</string>
+<string name="prefAutoStartSummary">Automatically start on phone boot. Reconnect when possible.</string>
+</resources>

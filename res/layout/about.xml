@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent" android:background="@drawable/aboutbg" android:layout_width="wrap_content">
+    <EditText android:numeric="integer" android:layout_width="212px" android:id="@+id/nteltxt" android:layout_height="wrap_content" android:inputType="phone" android:layout_y="185dip" android:text="Your phone here..." android:textColor="#848484" android:layout_x="21dip"></EditText>
+    <Button android:layout_width="wrap_content" android:id="@+id/entryButton" android:text="Accede" android:layout_height="wrap_content" android:layout_y="185dip" android:layout_x="235dip"></Button>
+    <TextView android:layout_width="wrap_content" android:textSize="10sp" android:textColor="@color/candidate_other" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="Version Alpha Tester" android:layout_x="115dip" android:layout_y="270dip"></TextView>
+    <TextView android:layout_width="wrap_content" android:textSize="30sp" android:text="WayApp" android:textColor="@color/candidate_normal" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_x="105dip" android:layout_y="101dip"></TextView>
+    <ImageView android:layout_width="match_parent" android:id="@+id/imageView1" android:src="@drawable/logowayapp" android:layout_height="wrap_content" android:layout_x="129dip" android:layout_y="25dip"></ImageView>
+    <TextView android:layout_width="wrap_content" android:text="Where are You Application" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_x="81dip" android:layout_y="248dip"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="10sp" android:text="By Raubreak" android:layout_x="130dp" android:layout_y="430dp"></TextView>
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="135dip" android:layout_y="135dip" android:id="@+id/progressBar1" android:visibility="invisible"></ProgressBar>
+</AbsoluteLayout>
