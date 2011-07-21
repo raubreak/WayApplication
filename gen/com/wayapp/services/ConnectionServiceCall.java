@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/raubreak/Escritorio/WayAppProject/WayApplication/src/com/wayapp/services/ConnectionServiceCall.aidl
+ * Original file: /home/maria/workspace/WayApplication/src/com/wayapp/services/ConnectionServiceCall.aidl
  */
 package com.wayapp.services;
 /**
